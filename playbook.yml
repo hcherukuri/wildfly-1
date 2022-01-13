@@ -6,7 +6,7 @@
     wildfly_user: 'wildfly'
     wildfly_home: '/opt/wildfly/wildfly-preview-26.0.0.Final/'
   collections:
-    - middleware_automation.redhat_csp_download
+    - redhat.redhat_csp_download
   roles:
     - redhat_csp_download
     - wildfly_install

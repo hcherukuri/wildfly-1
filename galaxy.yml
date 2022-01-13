@@ -1,12 +1,12 @@
-namespace: middleware_automation
+namespace: redhat
 name: wildfly
-version: "0.0.4"
+version: "1.0.0"
 readme: README.md
 authors:
   - Romain Pelisse <belaran@redhat.com>
   - Andrew Block <ablock@redhat.com>
   - Harsha Cherukuri <hcheruku@redhat.com>
-description: Enable Ansible to provisioning JBoss EAP or Wildfly instances.
+description: This Ansible Collection regroups several playbooks (packaged as role) to help install, setup and maintain Java JEE appserver Wildfly (and its product counterpart [JBoss Enterprise Application (EAP)](https://www.redhat.com/en/technologies/jboss-middleware/application-platform) ) within the configuration management tool Ansible.
 license_file: "LICENSE"
 tags:
   - java
@@ -15,7 +15,7 @@ tags:
   - cli
   - server
 dependencies:
-  middleware_automation.redhat_csp_download: '>=1.1.2'
+  redhat.redhat_csp_download: '>=1.2.0'
 repository: https://github.com/ansible-middleware/wildfly_collection
 documentation: https://github.com/ansible-middleware/wildfly_collection
 homepage: https://github.com/ansible-middleware/wildfly_collection

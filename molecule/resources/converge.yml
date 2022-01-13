@@ -2,7 +2,7 @@
 - name: Converge
   hosts: all
   collections:
-    - middleware_automation.wildfly
+    - redhat.wildfly
   vars:
     wildfly_home: '/opt/wildfly/wildfly-preview-26.0.0.Final'
     wildfly_user: 'wildfly'
