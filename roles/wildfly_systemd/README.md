@@ -50,8 +50,8 @@ Role Variables
 
 Dependencies
 ------------
-
-community.general.xml
+<!-- 
+community.general.xml -->
 
 
 Example Playbook
